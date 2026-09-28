@@ -1,0 +1,935 @@
+{
+  "schema": "cadence-candidate-battery-criteria/1",
+  "source_register": "plan/CADENCE_CAPABILITY_AND_PROOF_REGISTER.md",
+  "source_readiness": "plan/CADENCE_LOCAL_FIRST_FLY_GATES_2026-09-28.md",
+  "criterion_count": 34,
+  "readiness_gate_count": 8,
+  "statuses": [
+    "PASS",
+    "FAIL",
+    "UNSUPPORTED",
+    "NOT_TESTED",
+    "ERROR"
+  ],
+  "evidence_axes": {
+    "representability": "Supplied bounded construction expresses the declared function; it does not establish learning.",
+    "formal_guarantee": "Explicit conditional theorem/exact proof with candidate-specific assumption discharge; process exit does not certify it.",
+    "implementation_conformance": "Executed source follows its declared equations, state/custody and numerical admission.",
+    "learned_capability": "Experience causes useful persistent generalization under frozen task/controls; supplied structure remains disclosed.",
+    "measured_utility": "A predeclared useful effect at counted information/resources; no task-independent efficiency conclusion.",
+    "integrated_capability": "Required functions coexist in the same continuing versioned candidate."
+  },
+  "result_contract": {
+    "probe_status": "One of statuses for the actually executed named local task; always display scope and coverage.",
+    "criterion_status": "A bounded_slice PASS leaves the full criterion NOT_TESTED. A tested necessary-condition FAIL, ERROR or UNSUPPORTED may be carried to the criterion with its explicit scope; this is not a universal impossibility verdict. Full criterion PASS requires full_contract_ready and complete reviewed required evidence.",
+    "default_criterion_status": "NOT_TESTED",
+    "unsupported_meaning": "A defined test cannot run through the selected candidate's declared interface.",
+    "error_meaning": "Unexpected execution/custody/dependency/timeout failure; retain it rather than skip.",
+    "reference_mode": "A reference pass verifies the reference package only; it cannot satisfy candidate criteria or readiness.",
+    "coverage_rule": "All34 rows must appear, including null test_key rows. No denominator excludes unsupported, untested or error rows.",
+    "same_candidate_rule": "Every candidate result binds one adapter/rule/source identity. Reference or other-candidate results cannot be merged to close gaps."
+  },
+  "criteria": [
+    {
+      "id": "P1",
+      "title": "sensory representation and invariance",
+      "small_local_task": "Relabel/rotate inputs with transported ports; occlude inputs; compare nuisance changes with genuine object changes.",
+      "formal_boundary": "Declared coordinate transformations preserve public meaning; missing observations are not zero targets.",
+      "falsifier": "A transported nuisance change alters the semantic answer, or an absent observation is silently treated as a zero target.",
+      "required_evidence_axes": [
+        "implementation_conformance",
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "U0/U2",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "P2",
+      "title": "multisensory binding",
+      "small_local_task": "Cross color/location assignments and audiovisual common/separate causes; pair-marginal shortcuts must fail.",
+      "formal_boundary": "Retain joint identity, location and timing; compatible local readings need not have identical private states.",
+      "falsifier": "Crossed attributes are confused, or pairwise-marginal controls give the same answers on cases requiring joint identity.",
+      "required_evidence_axes": [
+        "representability",
+        "implementation_conformance",
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "U0c/U2a",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "P3",
+      "title": "uncertainty and ambiguity",
+      "small_local_task": "Two equally plausible causes, noisy/conflicting cues and missing sensors; score calibration and proper predictive loss, not confidence alone.",
+      "formal_boundary": "Preserve admissible alternatives; numerical residual is distinct from prediction error and uncertainty.",
+      "falsifier": "The candidate collapses admissible alternatives or reports low solver residual as calibrated uncertainty despite failed predictive scoring.",
+      "required_evidence_axes": [
+        "implementation_conformance",
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "U1/U2",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "P4",
+      "title": "selective attention and active sensing",
+      "small_local_task": "Query one of many competing items, then choose a costly additional observation; same-information lookup/attention and random-query controls.",
+      "formal_boundary": "Selection variables and their feedback participate in the same equations; evidence cannot vanish through zeroed gains.",
+      "falsifier": "Selection does not causally affect the joint interpretation, or the candidate makes difficult evidence disappear by collapsing gains.",
+      "required_evidence_axes": [
+        "implementation_conformance",
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "U2a/U2c",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "P5",
+      "title": "object permanence and latent context",
+      "small_local_task": "Occlude and move an object; present identical final images after different histories; compare a memoryless controller.",
+      "formal_boundary": "Current state is conditional on retained history, not solely the latest sensor vector.",
+      "falsifier": "Opposite object histories with an identical current observation produce no appropriate history-dependent response.",
+      "required_evidence_axes": [
+        "implementation_conformance",
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "U1b/U2",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "T1",
+      "title": "order, duration and asynchronous streams",
+      "small_local_task": "AB versus BA, variable gaps, delayed sensors and replay of identical timed events with different solver budgets.",
+      "formal_boundary": "Event time, causal order and repair time are separate; no use of future observations.",
+      "falsifier": "AB and BA or distinct delays are indistinguishable where the task requires otherwise; outcomes depend on solver speed rather than event time, or future evidence leaks.",
+      "required_evidence_axes": [
+        "formal_guarantee",
+        "implementation_conformance",
+        "learned_capability"
+      ],
+      "gate": "U0b/U1c",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "T2",
+      "title": "ongoing temporal activity",
+      "small_local_task": "A timed alternating action or rhythmic body with constant external drive; require the clock/phase source and cost to be explicit, with cadence invariant to solver speed.",
+      "formal_boundary": "State explicitly whether equilibrium describes a moment, trajectory window or conditional interpretation; do not claim a nonconstant orbit is a static fixed point.",
+      "falsifier": "The rhythm depends on numerical iteration speed or an undisclosed clock; a capped oscillatory solver is reported as a qualified static equilibrium.",
+      "required_evidence_axes": [
+        "representability",
+        "implementation_conformance",
+        "measured_utility"
+      ],
+      "gate": "U1d/U3",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "M1",
+      "title": "working memory",
+      "small_local_task": "Delayed matching with distractors and ordered recall; vary capacity and delay, compare frozen/erased state.",
+      "formal_boundary": "Bounded content survives distraction over a declared delay; update and read boundaries are defined.",
+      "falsifier": "A declared remembered item is lost within the tested delay/distraction budget, or repeated queries rewrite its evidence.",
+      "required_evidence_axes": [
+        "implementation_conformance",
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "U0b/U1b",
+      "test_key": "m1_history",
+      "coverage": "bounded_slice",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Bounded scalar history discrimination and read purity.",
+      "not_discharged": [
+        "Distractor resistance",
+        "Ordered recall",
+        "Working-memory capacity/general delay law"
+      ],
+      "small_local_probe": "Opposite three-event integer histories followed by the same final zero; repeated queries preserve retained evidence."
+    },
+    {
+      "id": "M2",
+      "title": "episodic, source and context memory",
+      "small_local_task": "Recall similar encounters with different outcomes; reorder/duplicate records and insert imagined successes.",
+      "formal_boundary": "Preserve witnessed versus imagined events, source, time and action identity.",
+      "falsifier": "A duplicate, hypothetical or wrong-source event is admitted as fresh fact; continuation loses ownership or the declared event-order contract.",
+      "required_evidence_axes": [
+        "formal_guarantee",
+        "implementation_conformance",
+        "learned_capability"
+      ],
+      "gate": "U1b/U1c",
+      "test_key": "m2_source_ownership",
+      "coverage": "bounded_slice",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Ownership and exactly-once behavior within one finite ordered-source contract.",
+      "not_discharged": [
+        "General distributed/asynchronous sources",
+        "Episodic retrieval",
+        "Action/time/context identity outside this scalar protocol"
+      ],
+      "small_local_probe": "One ordered source: latest identical retry, conflicting retry, old/skipped ID, hypothetical event, serialization and continuation."
+    },
+    {
+      "id": "M3",
+      "title": "semantic and relational abstraction",
+      "small_local_task": "Learn relations on some combinations, test held-out entities and reversed queries; retrieval and training-mean controls.",
+      "formal_boundary": "Stored rules support previously unseen compositions rather than retrieving a matching record.",
+      "falsifier": "Held-out relations/combinations cannot be answered beyond retrieval or training-mean controls under the same evidence budget.",
+      "required_evidence_axes": [
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "U1a/U2a",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "M4",
+      "title": "procedural learning and habits",
+      "small_local_task": "Practice a body skill, freeze or erase learned state, change the body, then restore it.",
+      "formal_boundary": "Persistent change must causally improve later action, with disclosed motor support.",
+      "falsifier": "Practice does not improve executed skill relative to frozen memory, or restoring/erasing learned state does not restore/remove the improvement.",
+      "required_evidence_axes": [
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "U1d",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "M5",
+      "title": "consolidation, recall and forgetting",
+      "small_local_task": "Common irrelevant events versus a rare consequential lesson; spaced versus massed exposure; score retention and interference at equal storage/work.",
+      "formal_boundary": "Finite memory has an explicit retention/overwrite mechanism; recall does not fabricate fresh evidence.",
+      "falsifier": "The required rare lesson is overwritten by irrelevant events at the stated capacity, or recall inflates evidence without a new witness.",
+      "required_evidence_axes": [
+        "implementation_conformance",
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "U1b",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "M6",
+      "title": "replay and offline reorganization",
+      "small_local_task": "Equal-budget replay versus rest/no-replay; test held-out generalization and old-skill retention without outside labels during rest.",
+      "formal_boundary": "Reused records remain reused evidence; no multiple independent counts or uncharged compute.",
+      "falsifier": "A replay advantage disappears under equal work/storage, or recycled facts are counted as independent new observations.",
+      "required_evidence_axes": [
+        "implementation_conformance",
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "U1b/U3",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "L1",
+      "title": "incidental and associative acquisition",
+      "small_local_task": "Masked relation stream with before-outcome scoring; one-shot salient episodes and habituation/dishabituation; frozen-memory control.",
+      "formal_boundary": "One admitted experience can revise durable relations through the declared rule; causal effects cannot be inferred from correlation alone.",
+      "falsifier": "Witnessed experience produces no reusable prediction improvement over a frozen-memory control, or the alleged gain uses target leakage.",
+      "required_evidence_axes": [
+        "implementation_conformance",
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "U1a",
+      "test_key": "l1_scalar_acquisition",
+      "coverage": "bounded_slice",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Acquisition of parameters in a supplied scalar likelihood family.",
+      "not_discharged": [
+        "Learned relational structure",
+        "Associative generalization",
+        "Habituation/dishabituation",
+        "One generic inference-and-learning operation"
+      ],
+      "small_local_probe": "Compare before/after predictions after six +2 witnesses with frozen and restored-memory controls; final squared error must be less than one quarter of frozen-prior error."
+    },
+    {
+      "id": "L2",
+      "title": "learning from delayed consequences",
+      "small_local_task": "Delayed reward with irrelevant intervening actions; shuffle eligibility/context and vary delay under a fixed storage budget.",
+      "formal_boundary": "Credit uses only information available from the executed action and its later outcome.",
+      "falsifier": "A delayed consequence changes an unrelated action record, or shuffled/erased eligibility performs identically where temporal credit is necessary.",
+      "required_evidence_axes": [
+        "formal_guarantee",
+        "implementation_conformance",
+        "learned_capability"
+      ],
+      "gate": "U1c",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "L3",
+      "title": "continual adaptation without catastrophic loss",
+      "small_local_task": "A→B→A and interleaved incompatible contexts; measure absolute skill, forgetting and recovery, with equal-memory online controls.",
+      "formal_boundary": "Separate acquisition, retention and reacquisition; no universal no-forgetting theorem under unlimited tasks and bounded storage.",
+      "falsifier": "The candidate fails declared post-switch accuracy or loses old-context competence beyond the retention bound; later reacquisition is mislabeled retention.",
+      "required_evidence_axes": [
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "U1a/U1b",
+      "test_key": "l3_context_switch",
+      "coverage": "bounded_slice",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "A necessary fast-switch response on one scalar A-B-A fixture.",
+      "not_discharged": [
+        "General continual-learning guarantee",
+        "Context-specific retrieval",
+        "Held-out context inference",
+        "Interference across multiple skills"
+      ],
+      "small_local_probe": "Four -2, four +2, four -2 observations without supplied context labels; score switch/return predictions and keep pooled/frozen controls."
+    },
+    {
+      "id": "L4",
+      "title": "causal world modelling",
+      "small_local_task": "Matched observational correlations with different causal structures; intervene on the body/environment and predict consequences before seeing them.",
+      "formal_boundary": "Distinguish conditioning from intervention and self-generated from external input.",
+      "falsifier": "The learned model cannot distinguish conditioning from an intervention or predicts an outcome only after seeing it.",
+      "required_evidence_axes": [
+        "implementation_conformance",
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "U1d/U2",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "L5",
+      "title": "adaptive operating range",
+      "small_local_task": "Shift input scale and sustained excitation, then restore them; score saturation/silence, retained predictions and recovery, versus fixed-gain and frozen-memory controls.",
+      "formal_boundary": "Keep useful activity and learning stable under chronic drive changes; normalization must not erase information or remove all constraints.",
+      "falsifier": "Drive shifts cause persistent saturation/silence or erase relevant distinctions, or restored conditions fail the declared recovery/retention gate.",
+      "required_evidence_axes": [
+        "implementation_conformance",
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "U1/U3",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "A1",
+      "title": "innate competence and internal drives",
+      "small_local_task": "Same odor with different energy state; actual eating restores energy; hunger competes with danger; lesion drive-to-choice influence.",
+      "formal_boundary": "Initial structure and observed bodily needs are explicit; choice cannot be delegated to a food/avoidance script.",
+      "falsifier": "Bodily need does not causally affect neural choice or intake does not alter sensed energy; an outside script supplies the selected food/action.",
+      "required_evidence_axes": [
+        "representability",
+        "implementation_conformance",
+        "measured_utility"
+      ],
+      "gate": "U1d/U4d",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "A2",
+      "title": "emotion-like valuation and motivational context",
+      "small_local_task": "Identical cue under danger, satiety or deprivation; test priorities, recovery and generalization beyond one cue.",
+      "formal_boundary": "Operationalize valence, urgency and persistence as functional variables, without asserting felt emotion.",
+      "falsifier": "Valuation/context interventions do not change priorities as declared, or a behavioral variable is promoted to evidence of subjective emotion.",
+      "required_evidence_axes": [
+        "implementation_conformance",
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "U1d/U2",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "A3",
+      "title": "smooth embodied control",
+      "small_local_task": "Moving target, force disturbance, actuator lag and wall/corner; measure tracking, collisions, latency and adaptation.",
+      "formal_boundary": "Neural request, body-controller transform and actual action are separately observable; stability guarantees need explicit plant/delay assumptions.",
+      "falsifier": "Tracking, collision, latency or actuator-adaptation thresholds fail, or body assistance chooses unreported goals or changes the intended action.",
+      "required_evidence_axes": [
+        "implementation_conformance",
+        "measured_utility"
+      ],
+      "gate": "U1d/U3",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "A4",
+      "title": "exploration and exploitation",
+      "small_local_task": "A changing small bandit/body-identification task with costly probing; random exploration and conventional online controls.",
+      "formal_boundary": "Information-seeking and uncertainty must affect decisions without future reward access.",
+      "falsifier": "Exploration uses inaccessible future rewards or fails the declared information-versus-cost comparison with competent controls.",
+      "required_evidence_axes": [
+        "implementation_conformance",
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "U1d/U2c",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "A5",
+      "title": "goal-directed planning and flexibility",
+      "small_local_task": "Detours, prerequisites, changed outcomes/rewards and novel start-goal pairs; vary horizon independently of observer depth. Reactive/habit and same-world-model planning controls.",
+      "formal_boundary": "Compare possible action sequences against goals, constraints and uncertainty before acting; predicted outcomes are not witnessed events. External search and compute are charged.",
+      "falsifier": "Changed goals/constraints invalidate plans, search uses hidden simulator answers, or a horizon/work-matched reactive control explains the result.",
+      "required_evidence_axes": [
+        "implementation_conformance",
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "U2d/U4",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "O1",
+      "title": "composed agreement at multiple scales",
+      "small_local_task": "Monolithic versus nested federation solutions, gauge relabeling, outside intervention and deliberately lossy summaries.",
+      "formal_boundary": "Consistency/observation preservation and conditional normalizer naturality; retain necessary joint boundary information.",
+      "falsifier": "Regrouping or a permitted outside intervention changes the declared boundary response, or coarse marginals lose a necessary joint correlation.",
+      "required_evidence_axes": [
+        "formal_guarantee",
+        "implementation_conformance",
+        "measured_utility"
+      ],
+      "gate": "U0c",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "O2",
+      "title": "recursive self-observation",
+      "small_local_task": "Perturb an observer, trace lower-state changes and returned effects on the observer; compare frozen/sequential and degree-matched controls.",
+      "formal_boundary": "Observers and observed variables remain jointly live; reciprocal influence must enter the actual equations.",
+      "falsifier": "An observer reads frozen/external diagnostics rather than current beliefs, or either direction of its declared feedback is causally absent.",
+      "required_evidence_axes": [
+        "representability",
+        "implementation_conformance",
+        "measured_utility"
+      ],
+      "gate": "U0/U2b",
+      "test_key": "o2_belief_readback",
+      "coverage": "bounded_slice",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Live uncertainty readback and reciprocal influence in one supplied scalar model.",
+      "not_discharged": [
+        "Learned observer formation",
+        "Useful added depth",
+        "Generic metacognition",
+        "Same-candidate retention/inference identity"
+      ],
+      "small_local_probe": "Perturb actual lower uncertainty and observer precision in turn, inspect reciprocal proposals, repair, and cut readback/feedback under the intact equations."
+    },
+    {
+      "id": "O3",
+      "title": "error monitoring and calibrated self-assessment",
+      "small_local_task": "Change cue reliability; permit abstention or request help; compare an ordinary same-information recurrent predictor.",
+      "formal_boundary": "Internal confidence must predict future errors under intervention, not merely correlate with solver steps or output magnitude.",
+      "falsifier": "Confidence/abstention fails calibrated error prediction under reliability interventions or only tracks solver activity without predictive value.",
+      "required_evidence_axes": [
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "U2c",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "O4",
+      "title": "rule abstraction and flexible reasoning",
+      "small_local_task": "Relational puzzles with withheld compositions, distractors, missing premises and changed surface labels; vary dependency length independently of observer depth. Exact oracle plus lookup/attention/recurrent controls.",
+      "formal_boundary": "Derive consequences from declared facts, rules and hypotheses; distinguish entailed, contradicted and undetermined conclusions. Test compositional generalization independently of seen templates.",
+      "falsifier": "The candidate confuses entailment, contradiction and underdetermination or fails withheld rule compositions while succeeding on memorized templates.",
+      "required_evidence_axes": [
+        "representability",
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "U2a/U2d",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "O5",
+      "title": "social inference, imitation and communication",
+      "small_local_task": "Two-agent hidden-information coordination and false-belief-style tasks; imitation transfer to a changed body.",
+      "formal_boundary": "Other agents have distinct access and beliefs; tasks must exclude privileged-state leakage.",
+      "falsifier": "Coordination requires privileged access to another agent's hidden state or does not transfer under the declared information/body change.",
+      "required_evidence_axes": [
+        "implementation_conformance",
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "Later U2/U4",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "O6",
+      "title": "language and symbolic composition",
+      "small_local_task": "Grounded instruction following on unseen combinations and limited dialogue history; compare grammar/template and online language controls.",
+      "formal_boundary": "Define grounded generalization targets; benchmark success alone does not identify a human language mechanism.",
+      "falsifier": "Grounded instruction performance fails withheld combinations, or a template/retrieval control accounts for the result at matched information.",
+      "required_evidence_axes": [
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "Later U4",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "O7",
+      "title": "imagination and counterfactual construction",
+      "small_local_task": "Predict an unexecuted action's consequences, reconstruct an occluded scene and compose an unseen combination; score against held-out outcomes/constraints. No outcome access during construction; memory-only and shuffled-model controls.",
+      "formal_boundary": "Internally complete or recombine a possible situation under explicit assumptions, including absent sensory content and unexecuted actions. Hypothetical and witnessed state remain distinguishable within the joint model.",
+      "falsifier": "Imagined branches fabricate factual evidence, access unobserved outcomes, or fail held-out consequences/combinations beyond memory-only controls.",
+      "required_evidence_axes": [
+        "formal_guarantee",
+        "implementation_conformance",
+        "learned_capability",
+        "measured_utility"
+      ],
+      "gate": "U1c/U2d",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "D1",
+      "title": "development and structural adaptation",
+      "small_local_task": "Add/remove capacity under task change; compare fixed wider, random growth and evolved wiring with all search cost counted.",
+      "formal_boundary": "Wiring changes preserve typed interfaces, state custody and the applicable qualification contract.",
+      "falsifier": "Growth/pruning corrupts ports, memory or qualification, or costs/selection privilege make an apparent gain uninterpretable.",
+      "required_evidence_axes": [
+        "formal_guarantee",
+        "implementation_conformance",
+        "measured_utility"
+      ],
+      "gate": "After U1/U2",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    },
+    {
+      "id": "D2",
+      "title": "robustness and functional recovery",
+      "small_local_task": "Missing/noisy neurons or ports, localized lesions, delayed messages and gradual body change; score degradation and relearning.",
+      "formal_boundary": "Faults have explicit scope; independent patch correctness does not prove arbitrary composition correct.",
+      "falsifier": "A specified fault corrupts durable state or cannot meet the declared degradation/recovery limit; passing isolated patches is substituted for composition testing.",
+      "required_evidence_axes": [
+        "implementation_conformance",
+        "measured_utility"
+      ],
+      "gate": "U0/U3",
+      "test_key": "d2_cap_rollback",
+      "coverage": "bounded_slice",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Transactional recovery from a numerical cap.",
+      "not_discharged": [
+        "Neural lesions",
+        "Noisy/missing ports",
+        "Body adaptation",
+        "General fault-tolerant composition"
+      ],
+      "small_local_probe": "Force a zero-budget admission failure; preserve persistent bytes/cursor, then retry the same event once with a sufficient unchanged budget."
+    },
+    {
+      "id": "D3",
+      "title": "bounded resources and graceful overload",
+      "small_local_task": "Increase sensor rate and number of objects at fixed compute/memory; p99 latency, stale actions, dropped evidence and recovery.",
+      "formal_boundary": "Bounded queues/storage, coherent evidence versions and declared service/fallback behavior.",
+      "falsifier": "The candidate exceeds fixed storage/deadline bounds, silently drops evidence or executes stale commands under the declared overload.",
+      "required_evidence_axes": [
+        "formal_guarantee",
+        "implementation_conformance",
+        "measured_utility"
+      ],
+      "gate": "U3",
+      "test_key": "d3_bounded_resources",
+      "coverage": "bounded_slice",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Finite storage/capacity and bounded local execution for the scalar fixture.",
+      "not_discharged": [
+        "Streaming queue overload",
+        "p99 production latency",
+        "Stale actuator withdrawal",
+        "Variable-rate distributed service"
+      ],
+      "small_local_probe": "Fill the declared finite witness capacity, check bounded serialized state and per-case deadline, reject overflow without mutation."
+    },
+    {
+      "id": "D4",
+      "title": "integrated competence",
+      "small_local_task": "Interleave perception, delayed learning, recall, bodily needs and action; compare each isolated score to the combined stream.",
+      "formal_boundary": "The same frozen rule and persistent brain must retain multiple functions together.",
+      "falsifier": "Combining previously passed functions in the same persistent candidate breaks any required score or secretly switches to another primitive.",
+      "required_evidence_axes": [
+        "integrated_capability",
+        "measured_utility"
+      ],
+      "gate": "U1→U3",
+      "test_key": null,
+      "coverage": "none",
+      "full_contract_ready": false,
+      "default_status": "NOT_TESTED",
+      "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+      "not_discharged": []
+    }
+  ],
+  "readiness_gates": [
+    {
+      "id": "R1",
+      "title": "one primitive",
+      "requirement": "One executed local repair law computes both responses and retained change; all compiler rules, priors and genes are declared.",
+      "required_artifacts": [
+        "Candidate equations and owned-state definition",
+        "Source audit of inference and learning execution",
+        "Independent mechanism review"
+      ],
+      "test_key": null,
+      "automation": "review_only",
+      "default_status": "NOT_TESTED"
+    },
+    {
+      "id": "R2",
+      "title": "joint repair and federation",
+      "requirement": "Whole-system qualification, actual schedule/topology assumptions and preserved joint boundaries.",
+      "required_artifacts": [
+        "Model-specific theorem or exact bounded proof",
+        "Independent equation/solver checks",
+        "Monolithic/nested and information-loss tests"
+      ],
+      "test_key": null,
+      "automation": "review_only",
+      "default_status": "NOT_TESTED"
+    },
+    {
+      "id": "R3",
+      "title": "owned experience and continuation",
+      "requirement": "Exactly-once accepted commits within a stated horizon, isolated imagination, rejection rollback and complete continuation.",
+      "required_artifacts": [
+        "Event/state contract",
+        "Adversarial custody and continuation tests",
+        "Independent failure-path review"
+      ],
+      "test_key": null,
+      "automation": "review_only",
+      "default_status": "NOT_TESTED"
+    },
+    {
+      "id": "R4",
+      "title": "learned capabilities in the same candidate",
+      "requirement": "All34 required bounded capability contracts and evidence axes are discharged for one selected version.",
+      "required_artifacts": [
+        "Complete criterion coverage matrix",
+        "Frozen learned-task results and controls",
+        "Independent scientific review"
+      ],
+      "test_key": null,
+      "automation": "review_only",
+      "default_status": "NOT_TESTED"
+    },
+    {
+      "id": "R5",
+      "title": "integrated continuing operation",
+      "requirement": "One persistent candidate combines the required functions and preserves previous skill at declared cost.",
+      "required_artifacts": [
+        "Uninterrupted integrated stream",
+        "Causal interventions and resource-matched controls",
+        "Independent integration review"
+      ],
+      "test_key": null,
+      "automation": "review_only",
+      "default_status": "NOT_TESTED"
+    },
+    {
+      "id": "R6",
+      "title": "numerical and resource reliability",
+      "requirement": "Explicit finite/admission/approximation/error handling and bounded work, storage, deadlines and overload.",
+      "required_artifacts": [
+        "Numerical support and error contract",
+        "Full attempted-work accounting",
+        "Resource/overload qualification"
+      ],
+      "test_key": null,
+      "automation": "review_only",
+      "default_status": "NOT_TESTED"
+    },
+    {
+      "id": "R7",
+      "title": "retire current contracts deliberately",
+      "requirement": "Every required old API/use case has a tested replacement or explicit conversion/loading policy; surviving required legacy primitive means partial replacement.",
+      "required_artifacts": [
+        "Complete migration inventory",
+        "Checkpoint/converter/version tests",
+        "Independent migration review"
+      ],
+      "test_key": null,
+      "automation": "review_only",
+      "default_status": "NOT_TESTED"
+    },
+    {
+      "id": "R8",
+      "title": "production and independent review",
+      "requirement": "Public package, supported platforms/backends, tutorials and failure contracts have independent release coverage.",
+      "required_artifacts": [
+        "Minimal-install and platform/backend checks",
+        "API/tutorial and snapshot/rollback tests",
+        "Independent adversarial release review"
+      ],
+      "test_key": null,
+      "automation": "review_only",
+      "default_status": "NOT_TESTED"
+    }
+  ],
+  "challenge_fixtures": [
+    {
+      "id": "fly_directed_transition",
+      "title": "Directed fly transition fixture",
+      "test_key": "fly_directed_transition",
+      "allowed_execution_modes": [
+        "CANDIDATE",
+        "REFERENCE"
+      ],
+      "candidate_task": "Solve the frozen tiny transition-factor model built from declared signed directed fly influences and compare its joint probabilities/readouts with an independent exact oracle.",
+      "falsifier": "Candidate disagrees with the transformed model or silently claims it preserves the original continuous recurrent dynamics.",
+      "scope": "A discrete transition model is an explicit adapter/model change, not whole-fly biology or rate-equation equivalence.",
+      "reference_paths": [
+        "cadence-flagship/experiments/fly-transition-probe"
+      ],
+      "promotes_criteria": [],
+      "execution_mode": "CANDIDATE"
+    },
+    {
+      "id": "holonomy_conflict",
+      "title": "Inconsistent loop and holonomy",
+      "test_key": "holonomy_conflict",
+      "allowed_execution_modes": [
+        "CANDIDATE",
+        "REFERENCE"
+      ],
+      "candidate_task": "Represent a frozen contradictory binary cycle; distinguish an accurately solved frustrated model from impossible satisfaction of every parity relation.",
+      "falsifier": "Zero local/message residual is reported as all original constraints satisfied, or a chosen cut/model change is hidden.",
+      "scope": "Finite semantic-conflict test; not unrestricted loopy convergence or useful learning.",
+      "reference_paths": [
+        "cadence-flagship/experiments/local-observer-repair"
+      ],
+      "promotes_criteria": [],
+      "execution_mode": "CANDIDATE"
+    },
+    {
+      "id": "federation_joint_boundary",
+      "title": "Correlation-preserving federation boundary",
+      "test_key": "federation_joint_boundary",
+      "allowed_execution_modes": [
+        "CANDIDATE",
+        "REFERENCE"
+      ],
+      "candidate_task": "Compare monolithic and nested exact bounded models under an outside intervention; include equal marginals with different joint correlations.",
+      "falsifier": "A boundary loses a relevant correlation or changes the declared external conditional response.",
+      "scope": "Fixed finite compositional oracle; no learned interface or scalable arbitrary federation claim.",
+      "reference_paths": [
+        "cadence-flagship/experiments/federation-agreement",
+        "cadence-flagship/experiments/local-observer-repair"
+      ],
+      "promotes_criteria": [],
+      "execution_mode": "CANDIDATE"
+    },
+    {
+      "id": "gauge_transport",
+      "title": "Transported relabeling",
+      "test_key": null,
+      "allowed_execution_modes": [
+        "REFERENCE"
+      ],
+      "candidate_task": "Transport variables, factors and ports together under fixed relabelings; verify the corresponding observable result is unchanged.",
+      "falsifier": "A correctly transported representation changes observable probabilities, or only labels are moved while factors/ports remain fixed.",
+      "scope": "Existing finite reference only until a candidate-specific transport interface is implemented.",
+      "reference_paths": [
+        "cadence-flagship/experiments/federation-agreement"
+      ],
+      "promotes_criteria": [],
+      "execution_mode": "REFERENCE"
+    },
+    {
+      "id": "self_observation_reference",
+      "title": "Preserved self-observation reference",
+      "test_key": null,
+      "allowed_execution_modes": [
+        "REFERENCE"
+      ],
+      "candidate_task": "Read-only verification of the existing Gaussian/Gamma readback package and its explicit perturbation traces.",
+      "falsifier": "Source/result verification fails or a separate candidate's result is attributed to the selected candidate.",
+      "scope": "Historical reference candidate only; not selected-candidate O2 or R1 evidence.",
+      "reference_paths": [
+        "cadence-flagship/experiments/self-observation-probe"
+      ],
+      "promotes_criteria": [],
+      "execution_mode": "REFERENCE"
+    },
+    {
+      "id": "prior_game_evidence",
+      "title": "Preserved game and C64 arithmetic",
+      "test_key": null,
+      "allowed_execution_modes": [
+        "REFERENCE"
+      ],
+      "candidate_task": "Read-only verification of the existing small1942/C64/Atari arithmetic receipt when its local source inputs exist.",
+      "falsifier": "Source/receipt arithmetic mismatches, or saved prior-game results are promoted to new-candidate gameplay.",
+      "scope": "No gameplay, training, checkpoint reconstruction or capability transfer; missing local evidence remains NOT_TESTED.",
+      "reference_paths": [
+        "plan/audits/cadence/unified_redesign_2026-09-28"
+      ],
+      "promotes_criteria": [],
+      "execution_mode": "REFERENCE"
+    }
+  ],
+  "core_readiness": {
+    "default": false,
+    "automatic_promotion": false,
+    "requirements": [
+      "One selected versioned candidate",
+      "All34 full bounded contracts frozen and reviewed",
+      "All required evidence axes discharged for that candidate",
+      "R1-R8 reviewed PASS with linked artifacts",
+      "Complete tested migration inventory",
+      "Explicit independently reviewed readiness decision"
+    ],
+    "current_blocker": "Every criterion currently has full_contract_ready=false; a collection of partial probe passes cannot discharge the unchanged34-capability pre-scale gate."
+  }
+}

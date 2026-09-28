@@ -1,0 +1,1857 @@
+{
+  "schema": "cadence-candidate-battery/1",
+  "candidates": [
+    {
+      "candidate_id": "normal-gamma-retained/1",
+      "adapter": "cadence-candidate-test-suite/adapters/normal_gamma.py",
+      "scope": "Exact conjugate retention with distinct variational readout; scalar stationary model.",
+      "source_sha256": {
+        "cadence-candidate-test-suite/PROTOCOL.md": "61a329341df961d69850da1184f55836f6e85bf93aa3867969e7ca5d45ef6e09",
+        "cadence-candidate-test-suite/README.md": "938cd371f18282765273e30c366bfe3a019596f27ffba7faf3767191768715a3",
+        "cadence-candidate-test-suite/adapters/normal_gamma.py": "456d818b17a8580de5b354201d61c6eb17317123f741a3f019326f25c9160c7d",
+        "cadence-candidate-test-suite/battery.py": "8499e5dfa18abb35f540de47152490fde0c49d14ce7b603aaa5201de7cb882b6",
+        "cadence-candidate-test-suite/challenges.py": "6f1a0eeb697eb8eaab8246586cf9f00f3614f6e896274a9b99ab4aa6b4972dd9",
+        "cadence-candidate-test-suite/contract.py": "64eb5f51c514293a3c44e0ac8e1e2fd7239e3c80c4fb763278030923130d369b",
+        "cadence-candidate-test-suite/criteria.json": "632716f1c57a65b76e21e02b9b3edb795c222a13abb84f1aca238d1a5e977f35",
+        "cadence-candidate-test-suite/probes.py": "8ab84ac5e37090c8f25f68742b51796ecb0f697fc8424f6f8c53b65e2ab8cf2a",
+        "cadence-candidate-test-suite/run.py": "ee0cb67449d0fbadc36e66fbc7c584eaaa277fb13655f5d36c31436103cd588a",
+        "cadence-candidate-test-suite/test_battery.py": "6b65a6088b73f4e188502f2ccef3a5465e27129b7c17acd3751951d74e390981",
+        "cadence-candidate-test-suite/test_challenges.py": "e0d44fb2ff9743e0683021eb1062033b70403051116cb4685f9839b5c2397b8a",
+        "cadence-flagship/experiments/fly-motif-probe/PROTOCOL.md": "d1ad0732d276a944d3f1b640589eb2c7ab7696a50ab2527b47db2151cb96ca14",
+        "cadence-flagship/experiments/fly-motif-probe/README.md": "389a7eda62aa5f733ec74d5e157930ed31ec38a7f14a9debc00d4e5325ab2213",
+        "cadence-flagship/experiments/fly-motif-probe/kernel.mjs": "3e6222ca43f359e9c757981dcc84e868be80204689d2e38c71eb9737492e7d2f",
+        "cadence-flagship/experiments/fly-motif-probe/probe.py": "180b2650c6834e13281937ef5d501ea7b5593d1460ee2cce20e5af4f6899dbfa",
+        "cadence-flagship/experiments/fly-motif-probe/receipt.json": "226af4e66a3575a7339a22e9d5a46bc295e8a57868d15d0d409275cbbb88912a",
+        "cadence-flagship/experiments/fly-motif-probe/test_verifier.py": "fb5eac0af3410166a31b101198ef027d92529019bb8ab220f1da655a21a23320",
+        "cadence-flagship/experiments/fly-transition-probe/PROTOCOL.md": "dba2d35f75189e5a5d321c0aaa7a4075d722205dd15989318bd051757d9d355e",
+        "cadence-flagship/experiments/fly-transition-probe/README.md": "c0db9251432f0e674ff1d9bef2b0d9a0d578c8b3e5fc32181218595c727bf192",
+        "cadence-flagship/experiments/fly-transition-probe/adapter.py": "c2dfdd4b111b90df6a560cd42f228314f309fc1769010947852ec95068e2420e",
+        "cadence-flagship/experiments/fly-transition-probe/browser.mjs": "564c8ddacc62dcc044066fda7dcaf6667676ead8344f0cf03bc3ce3dd7b2becb",
+        "cadence-flagship/experiments/fly-transition-probe/probe.py": "ee576984d5c1400e58c48a9f49b6205f20fd65f2fade3e0f30592f12c5abed70",
+        "cadence-flagship/experiments/fly-transition-probe/receipt.json": "20f35f13e41d77c29691cae447cd5c54c6b6174431124df2bd35a7f59e645ac3",
+        "cadence-flagship/experiments/fly-transition-probe/test_probe.py": "2f9160fd2d513fe6d25ec4fc1d22a8ca9d2185004dd250a436ef8401a8cab1c9",
+        "cadence-flagship/experiments/local-observer-repair/PROTOCOL.md": "22a0eb3a7eb9317cabf4ff351d467c81a3fe5c78143d85615b00d90c3f9926f9",
+        "cadence-flagship/experiments/local-observer-repair/README.md": "3f775ffd16acf598768e0bc7cb736da8b94726cf244ae397f606e653accd6555",
+        "cadence-flagship/experiments/local-observer-repair/THEORY.md": "f09b6e278ae33c31f90aaaa198022b43c36676596d70ab5e6bd21b9f9f292b7f",
+        "cadence-flagship/experiments/local-observer-repair/kernel.py": "3a9609445a397f25fbbb8f5a7b02250d00967e46239fe2a7915991d5ac7d744e",
+        "cadence-flagship/experiments/local-observer-repair/probe.py": "fbf4d7dfcd4dc2420717ade89d3d5d470f9467381e89cb69bb089096e83c6922",
+        "cadence-flagship/experiments/local-observer-repair/receipt.json": "774310451a360a6233046c19386cba67a6039b9698bfa310f411c3bc026c6017",
+        "cadence-flagship/experiments/local-observer-repair/test_kernel.py": "5495071bca0ff7e3abb3dbdb908b1d22d7e8926301cec4b8b0e95c530bc0acb5",
+        "cadence-flagship/experiments/local-observer-repair/test_verifier.py": "6f85a58f7e389bb2f1abcbd33cc451a29d64fd75b5f64ac1388e8fc9c377f939",
+        "cadence-flagship/experiments/retained-observer-probe/model.py": "60fe4f42d47241fd6cdf5867c479c160bea2e36bbd93085ff0fcb1f6a6bbfc6f"
+      },
+      "criteria": [
+        {
+          "id": "P1",
+          "title": "sensory representation and invariance",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "P2",
+          "title": "multisensory binding",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "P3",
+          "title": "uncertainty and ambiguity",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "P4",
+          "title": "selective attention and active sensing",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "P5",
+          "title": "object permanence and latent context",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "T1",
+          "title": "order, duration and asynchronous streams",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "T2",
+          "title": "ongoing temporal activity",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "M1",
+          "title": "working memory",
+          "test_key": "m1_history",
+          "probe_status": "PASS",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Bounded scalar history discrimination and read purity.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "PASS",
+            "detail": "Same final input after opposite histories; no distractor/delay generalization claim.",
+            "metrics": {
+              "negative_history": -1.2,
+              "positive_history": 1.2,
+              "erased_mean": 0.0,
+              "queries_preserve_memory": true,
+              "histories": [
+                [
+                  -2,
+                  -2,
+                  -2,
+                  0
+                ],
+                [
+                  2,
+                  2,
+                  2,
+                  0
+                ]
+              ]
+            },
+            "elapsed_seconds": 0.047768999997060746
+          }
+        },
+        {
+          "id": "M2",
+          "title": "episodic, source and context memory",
+          "test_key": "m2_source_ownership",
+          "probe_status": "PASS",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Ownership and exactly-once behavior within one finite ordered-source contract.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "PASS",
+            "detail": "Ordered-source ownership and checkpoint continuation, not episodic recall.",
+            "metrics": {
+              "rejected_bad_events": 4,
+              "continuation_equal": true
+            },
+            "elapsed_seconds": 0.047380083007737994
+          }
+        },
+        {
+          "id": "M3",
+          "title": "semantic and relational abstraction",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "M4",
+          "title": "procedural learning and habits",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "M5",
+          "title": "consolidation, recall and forgetting",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "M6",
+          "title": "replay and offline reorganization",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "L1",
+          "title": "incidental and associative acquisition",
+          "test_key": "l1_scalar_acquisition",
+          "probe_status": "PASS",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Acquisition of parameters in a supplied scalar likelihood family.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "PASS",
+            "detail": "Learning a stationary scalar center; model family and likelihood are supplied.",
+            "metrics": {
+              "prior_error": 4.0,
+              "learned_error": 0.08163265306122454,
+              "pre_outcome_predictions": [
+                0.0,
+                1.0,
+                1.3333333333333333,
+                1.5,
+                1.6,
+                1.6666666666666667
+              ],
+              "restored_prior": 0.0,
+              "restored_learned": 1.7142857142857142,
+              "attempts": [
+                {
+                  "event": 1,
+                  "value": 2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 13
+                },
+                {
+                  "event": 2,
+                  "value": 2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 12
+                },
+                {
+                  "event": 3,
+                  "value": 2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 1
+                },
+                {
+                  "event": 4,
+                  "value": 2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 10
+                },
+                {
+                  "event": 5,
+                  "value": 2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 10
+                },
+                {
+                  "event": 6,
+                  "value": 2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 10
+                }
+              ]
+            },
+            "elapsed_seconds": 0.04607045801822096
+          }
+        },
+        {
+          "id": "L2",
+          "title": "learning from delayed consequences",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "L3",
+          "title": "continual adaptation without catastrophic loss",
+          "test_key": "l3_context_switch",
+          "probe_status": "FAIL",
+          "criterion_status": "FAIL",
+          "scope": "A necessary fast-switch response on one scalar A-B-A fixture.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "FAIL",
+            "detail": "Three phase endpoints must track current regime within0.5; failure is a capability result.",
+            "metrics": {
+              "phase_means": [
+                -1.6,
+                0.0,
+                -0.6153846153846154
+              ],
+              "squared_errors": [
+                0.15999999999999992,
+                4.0,
+                1.9171597633136093
+              ],
+              "maximum_allowed_error": 0.25,
+              "pre_outcome_predictions": [
+                0.0,
+                -1.0,
+                -1.3333333333333333,
+                -1.5,
+                -1.6,
+                -1.0,
+                -0.5714285714285714,
+                -0.25,
+                0.0,
+                -0.2,
+                -0.36363636363636365,
+                -0.5
+              ],
+              "attempts": [
+                {
+                  "event": 1,
+                  "value": -2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 13
+                },
+                {
+                  "event": 2,
+                  "value": -2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 12
+                },
+                {
+                  "event": 3,
+                  "value": -2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 1
+                },
+                {
+                  "event": 4,
+                  "value": -2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 10
+                },
+                {
+                  "event": 5,
+                  "value": 2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 11
+                },
+                {
+                  "event": 6,
+                  "value": 2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 10
+                },
+                {
+                  "event": 7,
+                  "value": 2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 10
+                },
+                {
+                  "event": 8,
+                  "value": 2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 10
+                },
+                {
+                  "event": 9,
+                  "value": -2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 10
+                },
+                {
+                  "event": 10,
+                  "value": -2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 9
+                },
+                {
+                  "event": 11,
+                  "value": -2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 9
+                },
+                {
+                  "event": 12,
+                  "value": -2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 9
+                }
+              ],
+              "pooled_unit_prior_control": [
+                -1.6,
+                0.0,
+                -0.6153846153846154
+              ],
+              "frozen_prior_control": 0.0
+            },
+            "elapsed_seconds": 0.05045549996430054
+          }
+        },
+        {
+          "id": "L4",
+          "title": "causal world modelling",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "L5",
+          "title": "adaptive operating range",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "A1",
+          "title": "innate competence and internal drives",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "A2",
+          "title": "emotion-like valuation and motivational context",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "A3",
+          "title": "smooth embodied control",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "A4",
+          "title": "exploration and exploitation",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "A5",
+          "title": "goal-directed planning and flexibility",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "O1",
+          "title": "composed agreement at multiple scales",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "O2",
+          "title": "recursive self-observation",
+          "test_key": "o2_belief_readback",
+          "probe_status": "PASS",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Live uncertainty readback and reciprocal influence in one supplied scalar model.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "PASS",
+            "detail": "Actual uncertainty readback and reciprocal feedback; no learned observer/depth superiority.",
+            "metrics": {
+              "observer_delta": -0.005381658429517433,
+              "lower_delta": -0.09453781512471254,
+              "recovery_residual": 3.5493774586115023e-11,
+              "recovery_stationarity": 6.519265127735707e-10,
+              "lesions": {
+                "variance_blind": {
+                  "converged": true,
+                  "full_residual": 0.059259259259259234,
+                  "stationarity": 0.9375
+                },
+                "feedback_cut": {
+                  "converged": true,
+                  "full_residual": 0.25,
+                  "stationarity": 1.0
+                }
+              }
+            },
+            "elapsed_seconds": 0.042878457985352725
+          }
+        },
+        {
+          "id": "O3",
+          "title": "error monitoring and calibrated self-assessment",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "O4",
+          "title": "rule abstraction and flexible reasoning",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "O5",
+          "title": "social inference, imitation and communication",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "O6",
+          "title": "language and symbolic composition",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "O7",
+          "title": "imagination and counterfactual construction",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "D1",
+          "title": "development and structural adaptation",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "D2",
+          "title": "robustness and functional recovery",
+          "test_key": "d2_cap_rollback",
+          "probe_status": "PASS",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Transactional recovery from a numerical cap.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "PASS",
+            "detail": "An unsettled zero-budget event cannot alter witnessed memory; retry can commit.",
+            "metrics": {
+              "rejected": true,
+              "unchanged": true,
+              "retry_accepted": true
+            },
+            "elapsed_seconds": 0.04473716701613739
+          }
+        },
+        {
+          "id": "D3",
+          "title": "bounded resources and graceful overload",
+          "test_key": "d3_bounded_resources",
+          "probe_status": "PASS",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Finite storage/capacity and bounded local execution for the scalar fixture.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "PASS",
+            "detail": "Bounded24-event fixture:4KiB persistent state and2s elapsed limit; not production throughput.",
+            "metrics": {
+              "max_checkpoint_bytes": 98,
+              "elapsed_seconds": 0.008238707960117608,
+              "overflow_rejected": true,
+              "overflow_unchanged": true,
+              "attempts": [
+                {
+                  "event": 1,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 13
+                },
+                {
+                  "event": 2,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 12
+                },
+                {
+                  "event": 3,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 11
+                },
+                {
+                  "event": 4,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 11
+                },
+                {
+                  "event": 5,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 10
+                },
+                {
+                  "event": 6,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 10
+                },
+                {
+                  "event": 7,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 10
+                },
+                {
+                  "event": 8,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 10
+                },
+                {
+                  "event": 9,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 10
+                },
+                {
+                  "event": 10,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 10
+                },
+                {
+                  "event": 11,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 10
+                },
+                {
+                  "event": 12,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 10
+                },
+                {
+                  "event": 13,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 9
+                },
+                {
+                  "event": 14,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 9
+                },
+                {
+                  "event": 15,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 9
+                },
+                {
+                  "event": 16,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 9
+                },
+                {
+                  "event": 17,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 9
+                },
+                {
+                  "event": 18,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 9
+                },
+                {
+                  "event": 19,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 9
+                },
+                {
+                  "event": 20,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 9
+                },
+                {
+                  "event": 21,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 9
+                },
+                {
+                  "event": 22,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 9
+                },
+                {
+                  "event": 23,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 9
+                },
+                {
+                  "event": 24,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 9
+                }
+              ]
+            },
+            "elapsed_seconds": 0.052670625038444996
+          }
+        },
+        {
+          "id": "D4",
+          "title": "integrated competence",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        }
+      ],
+      "challenges": [
+        {
+          "id": "fly_directed_transition",
+          "execution_mode": "CANDIDATE",
+          "evidence": {
+            "status": "UNSUPPORTED",
+            "detail": "No exact finite joint-factor interface",
+            "metrics": {},
+            "elapsed_seconds": 0.09312800003681332
+          }
+        },
+        {
+          "id": "holonomy_conflict",
+          "execution_mode": "CANDIDATE",
+          "evidence": {
+            "status": "UNSUPPORTED",
+            "detail": "No exact finite joint-factor interface",
+            "metrics": {},
+            "elapsed_seconds": 0.05567991698626429
+          }
+        },
+        {
+          "id": "federation_joint_boundary",
+          "execution_mode": "CANDIDATE",
+          "evidence": {
+            "status": "UNSUPPORTED",
+            "detail": "No exact finite joint-factor interface",
+            "metrics": {},
+            "elapsed_seconds": 0.039699874992948025
+          }
+        },
+        {
+          "id": "gauge_transport",
+          "execution_mode": "REFERENCE",
+          "evidence": {
+            "status": "PASS",
+            "detail": "Separate local-reference-packages verification; not selected-candidate evidence",
+            "metrics": {
+              "reference_id": "local-reference-packages",
+              "counts_as_candidate_evidence": false
+            }
+          }
+        },
+        {
+          "id": "self_observation_reference",
+          "execution_mode": "REFERENCE",
+          "evidence": {
+            "status": "PASS",
+            "detail": "Separate local-reference-packages verification; not selected-candidate evidence",
+            "metrics": {
+              "reference_id": "local-reference-packages",
+              "counts_as_candidate_evidence": false
+            }
+          }
+        },
+        {
+          "id": "prior_game_evidence",
+          "execution_mode": "REFERENCE",
+          "evidence": {
+            "status": "PASS",
+            "detail": "Separate prior-game-evidence verification; not selected-candidate evidence",
+            "metrics": {
+              "reference_id": "prior-game-evidence",
+              "counts_as_candidate_evidence": false
+            }
+          }
+        }
+      ],
+      "readiness_gates": [
+        {
+          "id": "R1",
+          "status": "UNSUPPORTED",
+          "detail": "Candidate declares an unmet requirement"
+        },
+        {
+          "id": "R2",
+          "status": "NOT_TESTED",
+          "detail": "Requires the named independent artifacts/review"
+        },
+        {
+          "id": "R3",
+          "status": "NOT_TESTED",
+          "detail": "Requires the named independent artifacts/review"
+        },
+        {
+          "id": "R4",
+          "status": "NOT_TESTED",
+          "detail": "Requires the named independent artifacts/review"
+        },
+        {
+          "id": "R5",
+          "status": "NOT_TESTED",
+          "detail": "Requires the named independent artifacts/review"
+        },
+        {
+          "id": "R6",
+          "status": "NOT_TESTED",
+          "detail": "Requires the named independent artifacts/review"
+        },
+        {
+          "id": "R7",
+          "status": "NOT_TESTED",
+          "detail": "Requires the named independent artifacts/review"
+        },
+        {
+          "id": "R8",
+          "status": "NOT_TESTED",
+          "detail": "Requires the named independent artifacts/review"
+        }
+      ],
+      "probe_counts": {
+        "NOT_TESTED": 27,
+        "PASS": 6,
+        "FAIL": 1
+      },
+      "all34_full_contracts_passed": false,
+      "core_replacement_ready": false,
+      "scaling": "LOCKED"
+    },
+    {
+      "candidate_id": "finite-cluster-sum-product/1",
+      "adapter": "cadence-candidate-test-suite/adapters/finite_cluster.py",
+      "scope": "Exact finite tree inference; no persistent stream or actual belief-readback interface.",
+      "source_sha256": {
+        "cadence-candidate-test-suite/PROTOCOL.md": "61a329341df961d69850da1184f55836f6e85bf93aa3867969e7ca5d45ef6e09",
+        "cadence-candidate-test-suite/README.md": "938cd371f18282765273e30c366bfe3a019596f27ffba7faf3767191768715a3",
+        "cadence-candidate-test-suite/adapters/finite_cluster.py": "53add3eba7cd558d9b96bc00dd11edcbae90b46f042ad2704cd5acc581b3159b",
+        "cadence-candidate-test-suite/battery.py": "8499e5dfa18abb35f540de47152490fde0c49d14ce7b603aaa5201de7cb882b6",
+        "cadence-candidate-test-suite/challenges.py": "6f1a0eeb697eb8eaab8246586cf9f00f3614f6e896274a9b99ab4aa6b4972dd9",
+        "cadence-candidate-test-suite/contract.py": "64eb5f51c514293a3c44e0ac8e1e2fd7239e3c80c4fb763278030923130d369b",
+        "cadence-candidate-test-suite/criteria.json": "632716f1c57a65b76e21e02b9b3edb795c222a13abb84f1aca238d1a5e977f35",
+        "cadence-candidate-test-suite/probes.py": "8ab84ac5e37090c8f25f68742b51796ecb0f697fc8424f6f8c53b65e2ab8cf2a",
+        "cadence-candidate-test-suite/run.py": "ee0cb67449d0fbadc36e66fbc7c584eaaa277fb13655f5d36c31436103cd588a",
+        "cadence-candidate-test-suite/test_battery.py": "6b65a6088b73f4e188502f2ccef3a5465e27129b7c17acd3751951d74e390981",
+        "cadence-candidate-test-suite/test_challenges.py": "e0d44fb2ff9743e0683021eb1062033b70403051116cb4685f9839b5c2397b8a",
+        "cadence-flagship/experiments/fly-motif-probe/PROTOCOL.md": "d1ad0732d276a944d3f1b640589eb2c7ab7696a50ab2527b47db2151cb96ca14",
+        "cadence-flagship/experiments/fly-motif-probe/README.md": "389a7eda62aa5f733ec74d5e157930ed31ec38a7f14a9debc00d4e5325ab2213",
+        "cadence-flagship/experiments/fly-motif-probe/kernel.mjs": "3e6222ca43f359e9c757981dcc84e868be80204689d2e38c71eb9737492e7d2f",
+        "cadence-flagship/experiments/fly-motif-probe/probe.py": "180b2650c6834e13281937ef5d501ea7b5593d1460ee2cce20e5af4f6899dbfa",
+        "cadence-flagship/experiments/fly-motif-probe/receipt.json": "226af4e66a3575a7339a22e9d5a46bc295e8a57868d15d0d409275cbbb88912a",
+        "cadence-flagship/experiments/fly-motif-probe/test_verifier.py": "fb5eac0af3410166a31b101198ef027d92529019bb8ab220f1da655a21a23320",
+        "cadence-flagship/experiments/fly-transition-probe/PROTOCOL.md": "dba2d35f75189e5a5d321c0aaa7a4075d722205dd15989318bd051757d9d355e",
+        "cadence-flagship/experiments/fly-transition-probe/README.md": "c0db9251432f0e674ff1d9bef2b0d9a0d578c8b3e5fc32181218595c727bf192",
+        "cadence-flagship/experiments/fly-transition-probe/adapter.py": "c2dfdd4b111b90df6a560cd42f228314f309fc1769010947852ec95068e2420e",
+        "cadence-flagship/experiments/fly-transition-probe/browser.mjs": "564c8ddacc62dcc044066fda7dcaf6667676ead8344f0cf03bc3ce3dd7b2becb",
+        "cadence-flagship/experiments/fly-transition-probe/probe.py": "ee576984d5c1400e58c48a9f49b6205f20fd65f2fade3e0f30592f12c5abed70",
+        "cadence-flagship/experiments/fly-transition-probe/receipt.json": "20f35f13e41d77c29691cae447cd5c54c6b6174431124df2bd35a7f59e645ac3",
+        "cadence-flagship/experiments/fly-transition-probe/test_probe.py": "2f9160fd2d513fe6d25ec4fc1d22a8ca9d2185004dd250a436ef8401a8cab1c9",
+        "cadence-flagship/experiments/local-observer-repair/PROTOCOL.md": "22a0eb3a7eb9317cabf4ff351d467c81a3fe5c78143d85615b00d90c3f9926f9",
+        "cadence-flagship/experiments/local-observer-repair/README.md": "3f775ffd16acf598768e0bc7cb736da8b94726cf244ae397f606e653accd6555",
+        "cadence-flagship/experiments/local-observer-repair/THEORY.md": "f09b6e278ae33c31f90aaaa198022b43c36676596d70ab5e6bd21b9f9f292b7f",
+        "cadence-flagship/experiments/local-observer-repair/kernel.py": "3a9609445a397f25fbbb8f5a7b02250d00967e46239fe2a7915991d5ac7d744e",
+        "cadence-flagship/experiments/local-observer-repair/probe.py": "fbf4d7dfcd4dc2420717ade89d3d5d470f9467381e89cb69bb089096e83c6922",
+        "cadence-flagship/experiments/local-observer-repair/receipt.json": "774310451a360a6233046c19386cba67a6039b9698bfa310f411c3bc026c6017",
+        "cadence-flagship/experiments/local-observer-repair/test_kernel.py": "5495071bca0ff7e3abb3dbdb908b1d22d7e8926301cec4b8b0e95c530bc0acb5",
+        "cadence-flagship/experiments/local-observer-repair/test_verifier.py": "6f85a58f7e389bb2f1abcbd33cc451a29d64fd75b5f64ac1388e8fc9c377f939"
+      },
+      "criteria": [
+        {
+          "id": "P1",
+          "title": "sensory representation and invariance",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "P2",
+          "title": "multisensory binding",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "P3",
+          "title": "uncertainty and ambiguity",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "P4",
+          "title": "selective attention and active sensing",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "P5",
+          "title": "object permanence and latent context",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "T1",
+          "title": "order, duration and asynchronous streams",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "T2",
+          "title": "ongoing temporal activity",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "M1",
+          "title": "working memory",
+          "test_key": "m1_history",
+          "probe_status": "UNSUPPORTED",
+          "criterion_status": "UNSUPPORTED",
+          "scope": "Bounded scalar history discrimination and read purity.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "UNSUPPORTED",
+            "detail": "No witnessed streaming operation",
+            "metrics": {},
+            "elapsed_seconds": 0.044575833017006516
+          }
+        },
+        {
+          "id": "M2",
+          "title": "episodic, source and context memory",
+          "test_key": "m2_source_ownership",
+          "probe_status": "UNSUPPORTED",
+          "criterion_status": "UNSUPPORTED",
+          "scope": "Ownership and exactly-once behavior within one finite ordered-source contract.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "UNSUPPORTED",
+            "detail": "No witnessed streaming operation",
+            "metrics": {},
+            "elapsed_seconds": 0.043389875034336
+          }
+        },
+        {
+          "id": "M3",
+          "title": "semantic and relational abstraction",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "M4",
+          "title": "procedural learning and habits",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "M5",
+          "title": "consolidation, recall and forgetting",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "M6",
+          "title": "replay and offline reorganization",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "L1",
+          "title": "incidental and associative acquisition",
+          "test_key": "l1_scalar_acquisition",
+          "probe_status": "UNSUPPORTED",
+          "criterion_status": "UNSUPPORTED",
+          "scope": "Acquisition of parameters in a supplied scalar likelihood family.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "UNSUPPORTED",
+            "detail": "No scalar belief query",
+            "metrics": {},
+            "elapsed_seconds": 0.042946624977048486
+          }
+        },
+        {
+          "id": "L2",
+          "title": "learning from delayed consequences",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "L3",
+          "title": "continual adaptation without catastrophic loss",
+          "test_key": "l3_context_switch",
+          "probe_status": "UNSUPPORTED",
+          "criterion_status": "UNSUPPORTED",
+          "scope": "A necessary fast-switch response on one scalar A-B-A fixture.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "UNSUPPORTED",
+            "detail": "No scalar belief query",
+            "metrics": {},
+            "elapsed_seconds": 0.041566041007172316
+          }
+        },
+        {
+          "id": "L4",
+          "title": "causal world modelling",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "L5",
+          "title": "adaptive operating range",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "A1",
+          "title": "innate competence and internal drives",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "A2",
+          "title": "emotion-like valuation and motivational context",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "A3",
+          "title": "smooth embodied control",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "A4",
+          "title": "exploration and exploitation",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "A5",
+          "title": "goal-directed planning and flexibility",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "O1",
+          "title": "composed agreement at multiple scales",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "O2",
+          "title": "recursive self-observation",
+          "test_key": "o2_belief_readback",
+          "probe_status": "UNSUPPORTED",
+          "criterion_status": "UNSUPPORTED",
+          "scope": "Live uncertainty readback and reciprocal influence in one supplied scalar model.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "UNSUPPORTED",
+            "detail": "No witnessed streaming operation",
+            "metrics": {},
+            "elapsed_seconds": 0.03902345901587978
+          }
+        },
+        {
+          "id": "O3",
+          "title": "error monitoring and calibrated self-assessment",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "O4",
+          "title": "rule abstraction and flexible reasoning",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "O5",
+          "title": "social inference, imitation and communication",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "O6",
+          "title": "language and symbolic composition",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "O7",
+          "title": "imagination and counterfactual construction",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "D1",
+          "title": "development and structural adaptation",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "D2",
+          "title": "robustness and functional recovery",
+          "test_key": "d2_cap_rollback",
+          "probe_status": "UNSUPPORTED",
+          "criterion_status": "UNSUPPORTED",
+          "scope": "Transactional recovery from a numerical cap.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "UNSUPPORTED",
+            "detail": "No persistent checkpoint",
+            "metrics": {},
+            "elapsed_seconds": 0.04458679200615734
+          }
+        },
+        {
+          "id": "D3",
+          "title": "bounded resources and graceful overload",
+          "test_key": "d3_bounded_resources",
+          "probe_status": "UNSUPPORTED",
+          "criterion_status": "UNSUPPORTED",
+          "scope": "Finite storage/capacity and bounded local execution for the scalar fixture.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "UNSUPPORTED",
+            "detail": "No witnessed streaming operation",
+            "metrics": {},
+            "elapsed_seconds": 0.04430362500716001
+          }
+        },
+        {
+          "id": "D4",
+          "title": "integrated competence",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        }
+      ],
+      "challenges": [
+        {
+          "id": "fly_directed_transition",
+          "execution_mode": "CANDIDATE",
+          "evidence": {
+            "status": "PASS",
+            "detail": "Same selected candidate solves four supplied fly-derived transition fixtures; two-bin stochastic dynamics, not a full fly, original trajectories, motor control or learning.",
+            "metrics": {
+              "conditions": [
+                "rest:intact:pulse=False",
+                "rest:intact:pulse=True",
+                "rest:source_cut:pulse=False",
+                "rest:inhibitory_cut:pulse=False"
+              ],
+              "fixture_sha256": "20f35f13e41d77c29691cae447cd5c54c6b6174431124df2bd35a7f59e645ac3",
+              "neurons": 4,
+              "joint_oracle_states": 256,
+              "largest_bag_states": 32,
+              "candidate_calls": 4,
+              "original_dynamics_preserved": false
+            },
+            "elapsed_seconds": 0.08614383300300688
+          }
+        },
+        {
+          "id": "holonomy_conflict",
+          "execution_mode": "CANDIDATE",
+          "evidence": {
+            "status": "PASS",
+            "detail": "Soft frustration and hard contradiction in an explicitly grouped8-state problem; not arbitrary loopy convergence or particle identification.",
+            "metrics": {
+              "exact_unequal_probability": "9/14",
+              "misleading_pairwise_value": "3/4",
+              "hard_zero_support_rejected": true,
+              "largest_bag_states": 8,
+              "candidate_calls": 2
+            },
+            "elapsed_seconds": 0.04018154204823077
+          }
+        },
+        {
+          "id": "federation_joint_boundary",
+          "execution_mode": "CANDIDATE",
+          "evidence": {
+            "status": "PASS",
+            "detail": "Joint two-bit boundary, outside conditioning and transported labels; no arbitrary federation scalability claim.",
+            "metrics": {
+              "forward_probability": "5/8",
+              "reverse_probability": "5/8",
+              "independent_singleton_compression": "1/2",
+              "compression_error": "1/8",
+              "largest_bag_states": 8,
+              "candidate_calls": 4
+            },
+            "elapsed_seconds": 0.04499091696925461
+          }
+        },
+        {
+          "id": "gauge_transport",
+          "execution_mode": "REFERENCE",
+          "evidence": {
+            "status": "PASS",
+            "detail": "Separate local-reference-packages verification; not selected-candidate evidence",
+            "metrics": {
+              "reference_id": "local-reference-packages",
+              "counts_as_candidate_evidence": false
+            }
+          }
+        },
+        {
+          "id": "self_observation_reference",
+          "execution_mode": "REFERENCE",
+          "evidence": {
+            "status": "PASS",
+            "detail": "Separate local-reference-packages verification; not selected-candidate evidence",
+            "metrics": {
+              "reference_id": "local-reference-packages",
+              "counts_as_candidate_evidence": false
+            }
+          }
+        },
+        {
+          "id": "prior_game_evidence",
+          "execution_mode": "REFERENCE",
+          "evidence": {
+            "status": "PASS",
+            "detail": "Separate prior-game-evidence verification; not selected-candidate evidence",
+            "metrics": {
+              "reference_id": "prior-game-evidence",
+              "counts_as_candidate_evidence": false
+            }
+          }
+        }
+      ],
+      "readiness_gates": [
+        {
+          "id": "R1",
+          "status": "NOT_TESTED",
+          "detail": "Requires the named independent artifacts/review"
+        },
+        {
+          "id": "R2",
+          "status": "NOT_TESTED",
+          "detail": "Requires the named independent artifacts/review"
+        },
+        {
+          "id": "R3",
+          "status": "UNSUPPORTED",
+          "detail": "Candidate declares an unmet requirement"
+        },
+        {
+          "id": "R4",
+          "status": "NOT_TESTED",
+          "detail": "Requires the named independent artifacts/review"
+        },
+        {
+          "id": "R5",
+          "status": "UNSUPPORTED",
+          "detail": "Candidate declares an unmet requirement"
+        },
+        {
+          "id": "R6",
+          "status": "NOT_TESTED",
+          "detail": "Requires the named independent artifacts/review"
+        },
+        {
+          "id": "R7",
+          "status": "NOT_TESTED",
+          "detail": "Requires the named independent artifacts/review"
+        },
+        {
+          "id": "R8",
+          "status": "NOT_TESTED",
+          "detail": "Requires the named independent artifacts/review"
+        }
+      ],
+      "probe_counts": {
+        "NOT_TESTED": 27,
+        "UNSUPPORTED": 7
+      },
+      "all34_full_contracts_passed": false,
+      "core_replacement_ready": false,
+      "scaling": "LOCKED"
+    }
+  ],
+  "references": [
+    {
+      "id": "local-reference-packages",
+      "execution_mode": "REFERENCE",
+      "status": "PASS",
+      "output": "{\"verified\": \"/Users/muellerberndt/Projects/oph-meta/cadence-flagship/experiments/local-brain-gates/receipt.json\", \"children\": 9, \"elapsed_seconds\": {\"unified-repair-audit\": 0.026538583042565733, \"federation-agreement\": 0.027655459009110928, \"relation-patch-probe\": 0.027177082956768572, \"fly-motif-probe\": 0.7866039170185104, \"local-observer-repair\": 0.06380754197016358, \"fly-loop-probe\": 0.15707991697127, \"self-observation-probe\": 0.03952520800521597, \"retained-observer-probe\": 0.13679841702105477, \"fly-transition-probe\": 0.5702522079809569}, \"scaling\": \"LOCKED\", \"unified_candidate_selected\": false, \"all_34_properties_discharged\": false, \"automatic_proof_certification\": false, \"core_replacement_ready\": false}\n",
+      "source_sha256": {
+        "cadence-flagship/experiments/local-brain-gates/receipt.before-transition-retention.json": "d43846cf75d74f13637703b0ee579024589c2d860ed7d71c2b728b2f3837e494",
+        "cadence-flagship/experiments/local-brain-gates/receipt.before-process-group-hardening.json": "3ba5d6c3cd161bcfeae05fc574b7accadbb3a2d42c869172427140d51c75cf29",
+        "cadence-flagship/experiments/local-brain-gates/run.py": "0343c4d2af1b2f913b79fe643eb9ecbcc0b960801966a76670f52532f123d9c7",
+        "cadence-flagship/experiments/local-brain-gates/receipt.before-readback-loops.json": "0c5fb489e56b83c20a28c8df8b5ecc52956b476a2ebc71da907f70324ee7a11e",
+        "cadence-flagship/experiments/local-brain-gates/receipt.before-local-repair.json": "6f3fab2850597eee83ed690915ac63e5e73955274e5cb9eef04038e41760ca17",
+        "cadence-flagship/experiments/local-brain-gates/test_run.py": "5d8dd5592903e904096117e3f2e4fd8e8ef39141fc2326d343f6639b128c24b8",
+        "cadence-flagship/experiments/local-brain-gates/receipt.before-register-link-fix.json": "99cdf38e3b87f69d39674a20069cbd7798d03a88763472bed2ef37295d49fc49",
+        "cadence-flagship/experiments/local-brain-gates/README.md": "6fec31053e5b943025c4f3adec511637d44167ae17566211d51175a0873338e5",
+        "cadence-flagship/experiments/local-brain-gates/receipt.before-relation-control.json": "5a3e109ca0011604b875def05392579bd67a55df907de01ba09964667f2912c1",
+        "cadence-flagship/experiments/local-brain-gates/receipt.json": "c1fe0316df8e422674e1568e20fb7653eec4775d76dfbf7fd3588462f28db9a3",
+        "cadence-flagship/experiments/local-brain-gates/PROTOCOL.md": "9b7b734607dedc42df0e581f799274421e1df8e2e1263e464dc21d3762cee8aa"
+      },
+      "counts_as_candidate_evidence": false
+    },
+    {
+      "id": "prior-game-evidence",
+      "execution_mode": "REFERENCE",
+      "status": "PASS",
+      "output": "{\"status\": \"verified\", \"sources\": 60, \"git_objects\": 3, \"1942\": {\"arms\": 16, \"logged_attempts\": 13750, \"last_worse_than_earlier_best\": 14, \"inferred_free_rejections\": 6, \"recorded_refined_rows\": 251}, \"mean_baseline_mse\": 0.060706336961852195, \"atari_completed\": 16, \"body_sha256\": \"5c81f8526fb42569bb1d60ac0c5bf15587436b7d5a11fe74deb824f5e912123e\"}\n",
+      "source_sha256": {
+        "plan/audits/cadence/unified_redesign_2026-09-28/check_evidence.py": "b72bb460f76effdad8ad2102d25654592125ba23ba7953a64237671abab2e18d",
+        "plan/audits/cadence/unified_redesign_2026-09-28/README.md": "c68494e6f79a96d301b2899b63639405307a1d7e037fb912c3456b565cb05942",
+        "plan/audits/cadence/unified_redesign_2026-09-28/protocol.json": "c1c750fbd1f9ddd0adc108bc6152559ebd46310a3103cbe30da79e5a953733df",
+        "plan/audits/cadence/unified_redesign_2026-09-28/test_check_evidence.py": "d0b5a7414a632fa3a6b320b4bf11ece19b85cb60aead3460fa1bd867abdaff2e",
+        "plan/audits/cadence/unified_redesign_2026-09-28/receipt.json": "e13c73b1ea27539f77eff9f847cc52926eb5867b2744e82257ffe6579c605569"
+      },
+      "counts_as_candidate_evidence": false
+    }
+  ],
+  "elapsed_seconds": 2.5873616660246626,
+  "core_replacement_ready": false,
+  "scaling": "LOCKED"
+}
