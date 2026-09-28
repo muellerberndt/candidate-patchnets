@@ -1,0 +1,19 @@
+{
+  "schema": "population-smoke-protocol/1",
+  "engine_version": "0.48.0",
+  "device": "python",
+  "worker_deadline_seconds": 270,
+  "total_budget_seconds": 300,
+  "max_journal_bytes": 10000000,
+  "seeds": [0, 1, 2],
+  "layouts": ["flat", "composed", "recursive"],
+  "fixture": "scalar",
+  "admissions": 40,
+  "max_assessment_error": 0.15,
+  "max_mse_fraction_of_frozen": 0.25,
+  "scalar_oracle_tolerance": 0.00001,
+  "reciprocal_min_effect": 0.00001,
+  "coverage": "Diagnostic bounded slices; fixed assessment amplitudes are withheld from admission, not an independent scientific confirmation set.",
+  "full_contract_promotion": false,
+  "hardware_claim": "Local smoke budget only. Resource measurements are host observations, not GPU, real-time or production deadline qualification."
+}

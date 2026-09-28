@@ -16,6 +16,17 @@ Neither current candidate is ready to replace Cadence core.
 
 ## Run it
 
+For the **current Cadence 0.48.0 population engine**, use the separate
+[current-source profile](docs/CURRENT_POPULATION.md):
+
+```sh
+python3 cadence-candidate-test-suite/current_population.py --out /tmp/population-smoke.json
+```
+
+It reports the same complete inventory, six bounded numerical/acquisition
+probes, all attempted solver work and measured resources under a declared
+five-minute local budget. Historical candidates below remain separate evidence.
+
 From the enclosing `oph-meta` workspace:
 
 ```sh
