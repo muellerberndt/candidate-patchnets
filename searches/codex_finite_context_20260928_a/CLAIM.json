@@ -1,0 +1,34 @@
+{
+  "owner": "Codex /root",
+  "created_utc": "2026-09-28T01:55:24.216382+00:00",
+  "status": "first_bounded_round_complete",
+  "scope": "Finite joint context/parameter retention via the same exact local factor-conditioning kernel; stationary versus switching-context controls.",
+  "owned_directory": "cadence-candidate-test-suite/searches/codex_finite_context_20260928_a",
+  "read_only_shared": [
+    "battery.py",
+    "criteria.json",
+    "probes.py",
+    "contract.py",
+    "challenges.py",
+    "adapters/",
+    "results/",
+    "../cadence-flagship/experiments/"
+  ],
+  "do_not_commit": true,
+  "parallelism": 1,
+  "budget": "Each child<=60s; package<1MB; no cloud/download/training campaign.",
+  "suite_head_at_claim": "6fa0930930183737d064bc04f482626c6ebfdb3e",
+  "does_not_claim": "This does not reserve all context-learning ideas; other workers can use different named lanes. Do not edit their files.",
+  "completed_utc": "2026-09-28T02:39:12.482932+00:00",
+  "report": "RESULTS.md",
+  "scientific_receipt": "search_receipt.json",
+  "strict_verification_receipt": "verification_receipt.json",
+  "independent_reviews": [
+    "MATH_REVIEW.md",
+    "EVIDENCE_REVIEW.md"
+  ],
+  "core_replacement_ready": false,
+  "actual_belief_self_observation": "UNSUPPORTED",
+  "background_jobs": false,
+  "next_proposed_test": "New frozen cross-stimulus context-transfer protocol and separately specified actual belief-readback/feedback mechanism; not executed in this round."
+}

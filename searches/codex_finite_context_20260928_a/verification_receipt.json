@@ -1,0 +1,30 @@
+{
+  "elapsed_seconds": 8.043019458011258,
+  "result": {
+    "schema": "codex-finite-context-strict-verification/1",
+    "scientific_receipt_sha256": "cb44f16cf9be79fc085d3a56681f05b220400326b3585de87dc7f9686b92f9e5",
+    "original_source_pins": {
+      "PROTOCOL.md": "a69f47f26ecf3d21e7bd3cbf2f62d81b245fbea23f114698707b2ce28e350243",
+      "THEOREM.md": "0ae1a24b944ddb8d6d0fb5d9eb2a45b3b0122a1bf374bd808e4eb89d7a033ab8",
+      "SKEPTICAL_CONTROLS.md": "3fa5387040cd37fbd3578059710ec5dc993e23afd14ec3ba3312565eb9139554",
+      "model.py": "1017afd71fc51df5f0cda5cbc8ed4cd625df8dfc93b97e69e272abf9e7b0e99b",
+      "probe.py": "95a7cc5cd7ce015b69f37df7a126ba9b16ea32099baa7b6bd29c59bdf0343316",
+      "test_model.py": "f6d9bc7308308a0bdcd5c18200cbfea2586809b0334fba790d9ec2dbbe308b3f",
+      "adapter_h0.py": "3b7e04aae0180234ddb035d04fc50c9ebc140cc185166b887b3e3aade3e3a00e",
+      "adapter_h16.py": "0bde66ba5795f25b822af8026eb63748ac4019cc595df1b2dc5166aae5f9ccd7",
+      "adapter_h4.py": "e4697aa5bb75a273a4ebe814217dda3384427d8dd4d0f6ba337b281f256a5094",
+      "cadence-flagship/experiments/local-observer-repair/kernel.py": "3a9609445a397f25fbbb8f5a7b02250d00967e46239fe2a7915991d5ac7d744e"
+    },
+    "supplemental_replay_source_pins": {
+      "cadence-candidate-test-suite/contract.py": "44f7484b6e6b8017a35dfdfa0d9af851051d824417f14ac363e50e9439cbf4cc",
+      "cadence-candidate-test-suite/searches/codex_finite_context_20260928_a/verify_round.py": "9627c3e8f9c4170be3db934240619b4284619395acacfc9c1e950578b8422ed2",
+      "cadence-candidate-test-suite/searches/codex_finite_context_20260928_a/test_verification.py": "2048ed3845719d84da5568c4ced4dcfe6f349736be7fd9f8087e1b9196dfbee9"
+    },
+    "checks": 1032,
+    "primary_event_solves": 108,
+    "typed_replay_equal": true,
+    "sources_unchanged_during_replay": true,
+    "original_run_full_source_custody_proven": false,
+    "core_replacement_ready": false
+  }
+}

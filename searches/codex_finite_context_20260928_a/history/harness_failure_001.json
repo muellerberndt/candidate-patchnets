@@ -1,0 +1,8 @@
+{
+  "status": "ERROR",
+  "scope": "Harness accounting error before first completed receipt",
+  "error": "Repeated check name for the second neutral0 in an H7/H8 sequence",
+  "candidate_failure": false,
+  "scientific_result_complete": false,
+  "correction": "Include event identifier in that assertion key; no model, thresholds, cases or budgets changed."
+}

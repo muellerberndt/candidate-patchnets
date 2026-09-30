@@ -1,0 +1,1208 @@
+{
+  "schema": "cadence-candidate-battery/1",
+  "candidates": [
+    {
+      "candidate_id": "finite-context-local-conditioning/1:h=0",
+      "adapter": "cadence-candidate-test-suite/searches/codex_finite_context_20260928_a/adapter_h0.py",
+      "scope": "Same exact local factor primitive for scalar retention and structural tasks; supplied binary contexts, no actual uncertainty self-observer.",
+      "source_sha256": {
+        "cadence-candidate-test-suite/PROTOCOL.md": "61a329341df961d69850da1184f55836f6e85bf93aa3867969e7ca5d45ef6e09",
+        "cadence-candidate-test-suite/README.md": "2aca175aede33017e704b6aac82a7cb16d1502bc16eb082b72512c1a5bb870f2",
+        "cadence-candidate-test-suite/battery.py": "a1aa313911d0fc752f4ec9e606a38684304199534062b7f5a142137497facf04",
+        "cadence-candidate-test-suite/challenges.py": "6f1a0eeb697eb8eaab8246586cf9f00f3614f6e896274a9b99ab4aa6b4972dd9",
+        "cadence-candidate-test-suite/contract.py": "44f7484b6e6b8017a35dfdfa0d9af851051d824417f14ac363e50e9439cbf4cc",
+        "cadence-candidate-test-suite/criteria.json": "632716f1c57a65b76e21e02b9b3edb795c222a13abb84f1aca238d1a5e977f35",
+        "cadence-candidate-test-suite/probes.py": "c6a8ef58e5977190b8e05a7af9ff7266ded971131ebab3a0f3013c7e16600a51",
+        "cadence-candidate-test-suite/run.py": "ee0cb67449d0fbadc36e66fbc7c584eaaa277fb13655f5d36c31436103cd588a",
+        "cadence-candidate-test-suite/searches/codex_finite_context_20260928_a/adapter_h0.py": "3b7e04aae0180234ddb035d04fc50c9ebc140cc185166b887b3e3aade3e3a00e",
+        "cadence-candidate-test-suite/searches/codex_finite_context_20260928_a/model.py": "1017afd71fc51df5f0cda5cbc8ed4cd625df8dfc93b97e69e272abf9e7b0e99b",
+        "cadence-candidate-test-suite/test_battery.py": "6b65a6088b73f4e188502f2ccef3a5465e27129b7c17acd3751951d74e390981",
+        "cadence-candidate-test-suite/test_challenges.py": "e0d44fb2ff9743e0683021eb1062033b70403051116cb4685f9839b5c2397b8a",
+        "cadence-candidate-test-suite/test_probes.py": "da772e8b5efa200a10684487ff1dc19fdace0bd537773de8f027faf3f64977f2",
+        "cadence-flagship/experiments/fly-motif-probe/PROTOCOL.md": "d1ad0732d276a944d3f1b640589eb2c7ab7696a50ab2527b47db2151cb96ca14",
+        "cadence-flagship/experiments/fly-motif-probe/README.md": "389a7eda62aa5f733ec74d5e157930ed31ec38a7f14a9debc00d4e5325ab2213",
+        "cadence-flagship/experiments/fly-motif-probe/kernel.mjs": "3e6222ca43f359e9c757981dcc84e868be80204689d2e38c71eb9737492e7d2f",
+        "cadence-flagship/experiments/fly-motif-probe/probe.py": "180b2650c6834e13281937ef5d501ea7b5593d1460ee2cce20e5af4f6899dbfa",
+        "cadence-flagship/experiments/fly-motif-probe/receipt.json": "226af4e66a3575a7339a22e9d5a46bc295e8a57868d15d0d409275cbbb88912a",
+        "cadence-flagship/experiments/fly-motif-probe/test_verifier.py": "fb5eac0af3410166a31b101198ef027d92529019bb8ab220f1da655a21a23320",
+        "cadence-flagship/experiments/fly-transition-probe/PROTOCOL.md": "dba2d35f75189e5a5d321c0aaa7a4075d722205dd15989318bd051757d9d355e",
+        "cadence-flagship/experiments/fly-transition-probe/README.md": "c0db9251432f0e674ff1d9bef2b0d9a0d578c8b3e5fc32181218595c727bf192",
+        "cadence-flagship/experiments/fly-transition-probe/adapter.py": "c2dfdd4b111b90df6a560cd42f228314f309fc1769010947852ec95068e2420e",
+        "cadence-flagship/experiments/fly-transition-probe/browser.mjs": "564c8ddacc62dcc044066fda7dcaf6667676ead8344f0cf03bc3ce3dd7b2becb",
+        "cadence-flagship/experiments/fly-transition-probe/probe.py": "ee576984d5c1400e58c48a9f49b6205f20fd65f2fade3e0f30592f12c5abed70",
+        "cadence-flagship/experiments/fly-transition-probe/receipt.json": "20f35f13e41d77c29691cae447cd5c54c6b6174431124df2bd35a7f59e645ac3",
+        "cadence-flagship/experiments/fly-transition-probe/test_probe.py": "2f9160fd2d513fe6d25ec4fc1d22a8ca9d2185004dd250a436ef8401a8cab1c9",
+        "cadence-flagship/experiments/local-observer-repair/PROTOCOL.md": "22a0eb3a7eb9317cabf4ff351d467c81a3fe5c78143d85615b00d90c3f9926f9",
+        "cadence-flagship/experiments/local-observer-repair/README.md": "3f775ffd16acf598768e0bc7cb736da8b94726cf244ae397f606e653accd6555",
+        "cadence-flagship/experiments/local-observer-repair/THEORY.md": "f09b6e278ae33c31f90aaaa198022b43c36676596d70ab5e6bd21b9f9f292b7f",
+        "cadence-flagship/experiments/local-observer-repair/kernel.py": "3a9609445a397f25fbbb8f5a7b02250d00967e46239fe2a7915991d5ac7d744e",
+        "cadence-flagship/experiments/local-observer-repair/probe.py": "fbf4d7dfcd4dc2420717ade89d3d5d470f9467381e89cb69bb089096e83c6922",
+        "cadence-flagship/experiments/local-observer-repair/receipt.json": "774310451a360a6233046c19386cba67a6039b9698bfa310f411c3bc026c6017",
+        "cadence-flagship/experiments/local-observer-repair/test_kernel.py": "5495071bca0ff7e3abb3dbdb908b1d22d7e8926301cec4b8b0e95c530bc0acb5",
+        "cadence-flagship/experiments/local-observer-repair/test_verifier.py": "6f85a58f7e389bb2f1abcbd33cc451a29d64fd75b5f64ac1388e8fc9c377f939"
+      },
+      "criteria": [
+        {
+          "id": "P1",
+          "title": "sensory representation and invariance",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "P2",
+          "title": "multisensory binding",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "P3",
+          "title": "uncertainty and ambiguity",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "P4",
+          "title": "selective attention and active sensing",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "P5",
+          "title": "object permanence and latent context",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "T1",
+          "title": "order, duration and asynchronous streams",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "T2",
+          "title": "ongoing temporal activity",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "M1",
+          "title": "working memory",
+          "test_key": "m1_history",
+          "probe_status": "PASS",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Bounded scalar history discrimination and read purity.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "PASS",
+            "detail": "Same final input after opposite histories; no distractor/delay generalization claim.",
+            "metrics": {
+              "negative_history": -1.999999761581435,
+              "positive_history": 1.999999761581435,
+              "erased_mean": 0.0,
+              "queries_preserve_memory": true,
+              "histories": [
+                [
+                  -2,
+                  -2,
+                  -2,
+                  0
+                ],
+                [
+                  2,
+                  2,
+                  2,
+                  0
+                ]
+              ]
+            },
+            "elapsed_seconds": 0.11298458295641467
+          }
+        },
+        {
+          "id": "M2",
+          "title": "episodic, source and context memory",
+          "test_key": "m2_source_ownership",
+          "probe_status": "PASS",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Ownership and exactly-once behavior within one finite ordered-source contract.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "PASS",
+            "detail": "Ordered-source ownership and checkpoint continuation, not episodic recall.",
+            "metrics": {
+              "rejected_bad_events": 4,
+              "continuation_equal": true
+            },
+            "elapsed_seconds": 0.061760750017128885
+          }
+        },
+        {
+          "id": "M3",
+          "title": "semantic and relational abstraction",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "M4",
+          "title": "procedural learning and habits",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "M5",
+          "title": "consolidation, recall and forgetting",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "M6",
+          "title": "replay and offline reorganization",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "L1",
+          "title": "incidental and associative acquisition",
+          "test_key": "l1_scalar_acquisition",
+          "probe_status": "PASS",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Acquisition of parameters in a supplied scalar likelihood family.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "PASS",
+            "detail": "Learning a stationary scalar center; model family and likelihood are supplied.",
+            "metrics": {
+              "prior_error": 4.0,
+              "learned_error": 2.0194839173657902e-28,
+              "pre_outcome_predictions": [
+                0.0,
+                1.9844357976653697,
+                1.9999389657750584,
+                1.999999761581435,
+                1.9999999990686774,
+                1.999999999996362
+              ],
+              "restored_prior": 0.0,
+              "restored_learned": 1.9999999999999858,
+              "attempts": [
+                {
+                  "event": 1,
+                  "value": 2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 2,
+                  "message_updates": 12,
+                  "message_evaluations": 30
+                },
+                {
+                  "event": 2,
+                  "value": 2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 2,
+                  "message_updates": 12,
+                  "message_evaluations": 30
+                },
+                {
+                  "event": 3,
+                  "value": 2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 2,
+                  "message_updates": 12,
+                  "message_evaluations": 30
+                },
+                {
+                  "event": 4,
+                  "value": 2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 2,
+                  "message_updates": 12,
+                  "message_evaluations": 30
+                },
+                {
+                  "event": 5,
+                  "value": 2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 2,
+                  "message_updates": 12,
+                  "message_evaluations": 30
+                },
+                {
+                  "event": 6,
+                  "value": 2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 2,
+                  "message_updates": 12,
+                  "message_evaluations": 30
+                }
+              ]
+            },
+            "elapsed_seconds": 0.08972804201766849
+          }
+        },
+        {
+          "id": "L2",
+          "title": "learning from delayed consequences",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "L3",
+          "title": "continual adaptation without catastrophic loss",
+          "test_key": "l3_context_switch",
+          "probe_status": "FAIL",
+          "criterion_status": "FAIL",
+          "scope": "A necessary fast-switch response on one scalar A-B-A fixture.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "FAIL",
+            "detail": "Three phase endpoints must track current regime within0.5; failure is a capability result.",
+            "metrics": {
+              "phase_means": [
+                -1.9999999990686774,
+                0.0,
+                -1.9999999990686774
+              ],
+              "squared_errors": [
+                8.673617379884035e-19,
+                4.0,
+                8.673617379884035e-19
+              ],
+              "maximum_allowed_error": 0.25,
+              "pre_outcome_predictions": [
+                0.0,
+                -1.9844357976653697,
+                -1.9999389657750584,
+                -1.999999761581435,
+                -1.9999999990686774,
+                -1.999999761581435,
+                -1.9999389657750584,
+                -1.9844357976653697,
+                0.0,
+                -1.9844357976653697,
+                -1.9999389657750584,
+                -1.999999761581435
+              ],
+              "attempts": [
+                {
+                  "event": 1,
+                  "value": -2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 2,
+                  "message_updates": 12,
+                  "message_evaluations": 30
+                },
+                {
+                  "event": 2,
+                  "value": -2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 2,
+                  "message_updates": 12,
+                  "message_evaluations": 30
+                },
+                {
+                  "event": 3,
+                  "value": -2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 2,
+                  "message_updates": 12,
+                  "message_evaluations": 30
+                },
+                {
+                  "event": 4,
+                  "value": -2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 2,
+                  "message_updates": 12,
+                  "message_evaluations": 30
+                },
+                {
+                  "event": 5,
+                  "value": 2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 2,
+                  "message_updates": 12,
+                  "message_evaluations": 30
+                },
+                {
+                  "event": 6,
+                  "value": 2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 2,
+                  "message_updates": 12,
+                  "message_evaluations": 30
+                },
+                {
+                  "event": 7,
+                  "value": 2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 2,
+                  "message_updates": 12,
+                  "message_evaluations": 30
+                },
+                {
+                  "event": 8,
+                  "value": 2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 2,
+                  "message_updates": 12,
+                  "message_evaluations": 30
+                },
+                {
+                  "event": 9,
+                  "value": -2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 2,
+                  "message_updates": 12,
+                  "message_evaluations": 30
+                },
+                {
+                  "event": 10,
+                  "value": -2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 2,
+                  "message_updates": 12,
+                  "message_evaluations": 30
+                },
+                {
+                  "event": 11,
+                  "value": -2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 2,
+                  "message_updates": 12,
+                  "message_evaluations": 30
+                },
+                {
+                  "event": 12,
+                  "value": -2,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 2,
+                  "message_updates": 12,
+                  "message_evaluations": 30
+                }
+              ],
+              "pooled_unit_prior_control": [
+                -1.6,
+                0.0,
+                -0.6153846153846154
+              ],
+              "frozen_prior_control": 0.0
+            },
+            "elapsed_seconds": 0.13086966698756441
+          }
+        },
+        {
+          "id": "L4",
+          "title": "causal world modelling",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "L5",
+          "title": "adaptive operating range",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "A1",
+          "title": "innate competence and internal drives",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "A2",
+          "title": "emotion-like valuation and motivational context",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "A3",
+          "title": "smooth embodied control",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "A4",
+          "title": "exploration and exploitation",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "A5",
+          "title": "goal-directed planning and flexibility",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "O1",
+          "title": "composed agreement at multiple scales",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "O2",
+          "title": "recursive self-observation",
+          "test_key": "o2_belief_readback",
+          "probe_status": "UNSUPPORTED",
+          "criterion_status": "UNSUPPORTED",
+          "scope": "Live uncertainty readback and reciprocal influence in one supplied scalar model.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "UNSUPPORTED",
+            "detail": "No actual uncertainty readback and feedback interface",
+            "metrics": {},
+            "elapsed_seconds": 0.049060082994401455
+          }
+        },
+        {
+          "id": "O3",
+          "title": "error monitoring and calibrated self-assessment",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "O4",
+          "title": "rule abstraction and flexible reasoning",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "O5",
+          "title": "social inference, imitation and communication",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "O6",
+          "title": "language and symbolic composition",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "O7",
+          "title": "imagination and counterfactual construction",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "D1",
+          "title": "development and structural adaptation",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "D2",
+          "title": "robustness and functional recovery",
+          "test_key": "d2_cap_rollback",
+          "probe_status": "PASS",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Transactional recovery from a numerical cap.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "PASS",
+            "detail": "An unsettled zero-budget event cannot alter witnessed memory; retry can commit.",
+            "metrics": {
+              "rejected": true,
+              "unchanged": true,
+              "retry_accepted": true,
+              "retry_qualified": true
+            },
+            "elapsed_seconds": 0.04469629202503711
+          }
+        },
+        {
+          "id": "D3",
+          "title": "bounded resources and graceful overload",
+          "test_key": "d3_bounded_resources",
+          "probe_status": "PASS",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Finite storage/capacity and bounded local execution for the scalar fixture.",
+          "coverage": "bounded_slice",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "PASS",
+            "detail": "Bounded24-event fixture:4KiB persistent state and2s elapsed limit; not production throughput.",
+            "metrics": {
+              "max_checkpoint_bytes": 152,
+              "elapsed_seconds": 0.037976124964188784,
+              "overflow_rejected": true,
+              "overflow_unchanged": true,
+              "attempts": [
+                {
+                  "event": 1,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 2,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 3,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 4,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 5,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 6,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 7,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 8,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 9,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 10,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 11,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 12,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 13,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 14,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 15,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 16,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 17,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 18,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 19,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 20,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 21,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 22,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 23,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                },
+                {
+                  "event": 24,
+                  "value": 0,
+                  "accepted": true,
+                  "qualified": true,
+                  "duplicate": false,
+                  "sweeps": 0,
+                  "message_updates": 0,
+                  "message_evaluations": 6
+                }
+              ]
+            },
+            "elapsed_seconds": 0.07631345803383738
+          }
+        },
+        {
+          "id": "D4",
+          "title": "integrated competence",
+          "test_key": null,
+          "probe_status": "NOT_TESTED",
+          "criterion_status": "NOT_TESTED",
+          "scope": "Catalogue task not implemented by this battery; thresholds and candidate interface must be frozen before execution.",
+          "coverage": "none",
+          "full_contract_ready": false,
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "Acceptance task is not implemented",
+            "metrics": {}
+          }
+        }
+      ],
+      "challenges": [
+        {
+          "id": "fly_directed_transition",
+          "execution_mode": "CANDIDATE",
+          "evidence": {
+            "status": "PASS",
+            "detail": "Same selected candidate solves four supplied fly-derived transition fixtures; two-bin stochastic dynamics, not a full fly, original trajectories, motor control or learning.",
+            "metrics": {
+              "conditions": [
+                "rest:intact:pulse=False",
+                "rest:intact:pulse=True",
+                "rest:source_cut:pulse=False",
+                "rest:inhibitory_cut:pulse=False"
+              ],
+              "fixture_sha256": "20f35f13e41d77c29691cae447cd5c54c6b6174431124df2bd35a7f59e645ac3",
+              "neurons": 4,
+              "joint_oracle_states": 256,
+              "largest_bag_states": 32,
+              "candidate_calls": 4,
+              "original_dynamics_preserved": false
+            },
+            "elapsed_seconds": 0.08403570897644386
+          }
+        },
+        {
+          "id": "holonomy_conflict",
+          "execution_mode": "CANDIDATE",
+          "evidence": {
+            "status": "PASS",
+            "detail": "Soft frustration and hard contradiction in an explicitly grouped8-state problem; not arbitrary loopy convergence or particle identification.",
+            "metrics": {
+              "exact_unequal_probability": "9/14",
+              "misleading_pairwise_value": "3/4",
+              "hard_zero_support_rejected": true,
+              "largest_bag_states": 8,
+              "candidate_calls": 2
+            },
+            "elapsed_seconds": 0.04130762495333329
+          }
+        },
+        {
+          "id": "federation_joint_boundary",
+          "execution_mode": "CANDIDATE",
+          "evidence": {
+            "status": "PASS",
+            "detail": "Joint two-bit boundary, outside conditioning and transported labels; no arbitrary federation scalability claim.",
+            "metrics": {
+              "forward_probability": "5/8",
+              "reverse_probability": "5/8",
+              "independent_singleton_compression": "1/2",
+              "compression_error": "1/8",
+              "largest_bag_states": 8,
+              "candidate_calls": 4
+            },
+            "elapsed_seconds": 0.0424812079872936
+          }
+        },
+        {
+          "id": "gauge_transport",
+          "execution_mode": "REFERENCE",
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "See separately executed reference section",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "self_observation_reference",
+          "execution_mode": "REFERENCE",
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "See separately executed reference section",
+            "metrics": {}
+          }
+        },
+        {
+          "id": "prior_game_evidence",
+          "execution_mode": "REFERENCE",
+          "evidence": {
+            "status": "NOT_TESTED",
+            "detail": "See separately executed reference section",
+            "metrics": {}
+          }
+        }
+      ],
+      "readiness_gates": [
+        {
+          "id": "R1",
+          "status": "NOT_TESTED",
+          "detail": "Requires the named independent artifacts/review"
+        },
+        {
+          "id": "R2",
+          "status": "NOT_TESTED",
+          "detail": "Requires the named independent artifacts/review"
+        },
+        {
+          "id": "R3",
+          "status": "NOT_TESTED",
+          "detail": "Requires the named independent artifacts/review"
+        },
+        {
+          "id": "R4",
+          "status": "UNSUPPORTED",
+          "detail": "Candidate declares an unmet requirement"
+        },
+        {
+          "id": "R5",
+          "status": "UNSUPPORTED",
+          "detail": "Candidate declares an unmet requirement"
+        },
+        {
+          "id": "R6",
+          "status": "UNSUPPORTED",
+          "detail": "Candidate declares an unmet requirement"
+        },
+        {
+          "id": "R7",
+          "status": "UNSUPPORTED",
+          "detail": "Candidate declares an unmet requirement"
+        },
+        {
+          "id": "R8",
+          "status": "UNSUPPORTED",
+          "detail": "Candidate declares an unmet requirement"
+        }
+      ],
+      "probe_counts": {
+        "NOT_TESTED": 27,
+        "PASS": 5,
+        "FAIL": 1,
+        "UNSUPPORTED": 1
+      },
+      "all34_full_contracts_passed": false,
+      "core_replacement_ready": false,
+      "scaling": "LOCKED"
+    }
+  ],
+  "references": [],
+  "elapsed_seconds": 0.749857000017073,
+  "core_replacement_ready": false,
+  "scaling": "LOCKED"
+}
